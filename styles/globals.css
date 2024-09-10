@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Calendar styling */
+.custom-calendar {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  .calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 900px; /* Adjust this value as needed */
+    margin: auto;
+}
